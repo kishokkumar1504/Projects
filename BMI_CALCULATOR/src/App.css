@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vm;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-calculator {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.box {
+    width: 350px;
+    background-image: url('./assets/bmi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.data {
+    flex: 1;
+    padding: 11px;
+}
+
+h1 {
+    font-weight: 1000;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.input-container {
+    margin-bottom: 11px;
+}
+
+label {
+    font-size: large;
+    display: block;
+    margin-bottom: 5px;
+    color: black
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.result p {
+    margin: 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.result p:nth-child(1) {
+    font-size: 20px;
+    color: brown;
+}
+
+.data p {
+    color: red;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
